@@ -1,4 +1,4 @@
-import { QuestionsRepository } from '../repositories/question-repository'
+import { QuestionsRepository } from '../repositories/questions-repository'
 import { Question } from '../../enterprise/entities/question'
 import { UniqueEntityID } from '@/core/entities/unique-entity-id'
 import { Either, right } from '@/core/either'

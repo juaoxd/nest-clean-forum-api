@@ -1,4 +1,4 @@
-import { QuestionsRepository } from '../repositories/question-repository'
+import { QuestionsRepository } from '../repositories/questions-repository'
 import { Question } from '../../enterprise/entities/question'
 import { ResourceNotFoundError } from '@/core/errors/resource-not-found'
 import { Either, left, right } from '@/core/either'
