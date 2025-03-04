@@ -56,8 +56,8 @@ import { PrismaNotificationsRepository } from './prisma/repositories/prisma-noti
     },
     {
       provide: NotificationsRepository,
-      useClass: PrismaNotificationsRepository
-    }
+      useClass: PrismaNotificationsRepository,
+    },
   ],
   exports: [
     PrismaService,
@@ -69,7 +69,7 @@ import { PrismaNotificationsRepository } from './prisma/repositories/prisma-noti
     AnswerCommentsRepository,
     AnswerAttachmentsRepository,
     AttachmentsRepository,
-    NotificationsRepository
+    NotificationsRepository,
   ],
 })
 export class DatabaseModule {}
